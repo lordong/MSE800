@@ -90,7 +90,7 @@ def main():
         
         #Calculate the sum and average of data
         calc_data(data, cols_len)
-        print("Reault data: ", data)
+        print("Result data: ", data)
         
         #Write result to csv file
         output_result("dataset_result.csv", data, rows_len, cols_len)
