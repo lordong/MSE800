@@ -3,7 +3,7 @@ def calc_sub():
         x = int(input("Please enter integer value x: "))
         y = int(input("Please enter integer value y: "))
         print(f"The result of {x} + {y} = ", x + y)
-    except:
+    except ValueError:
         print("Please enter integer number!")
 
 def calc_power():
@@ -11,7 +11,7 @@ def calc_power():
         x = int(input("Please enter integer value x: "))
         y = int(input("Please enter integer value y: "))
         print(f"The result of power({x}, {y}) = ", x ** y)
-    except:
+    except ValueError:
         print("Please enter integer number!")
 
 def calc_complex():
