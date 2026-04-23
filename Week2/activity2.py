@@ -10,13 +10,14 @@ class student_info():
 
 def main():
     students = []
-    for x in range(1, 4):
-        print(f"Please enterh the information of student #{x}")
+    for x in range(3):
+        print(f"Please enterh the information of student #{x + 1}")
         student = student_info()
         student.get_info()
         students.append(student)
-        
-    for student in students:
+    
+    sorted_students = sorted(students, key=lambda x: x.age)
+    for student in sorted_students:
         student.display()
 
 if __name__ == "__main__":
