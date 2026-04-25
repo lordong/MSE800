@@ -10,4 +10,8 @@ Course includes name, startdate, enddate and key ID.
 
 Related table - EnrolledIn - include the related ID between student's key ID and cource's key ID.
 
+## 2. Activity 1.2
+
+Add Lectuer table, primary key and foreign key.
+
 
