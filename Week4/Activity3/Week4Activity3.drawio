@@ -1,0 +1,132 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Register" id="kE1rcWjhrqwZf-E3THlv">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Botq3cFe5Yx0NCncd-b--16" parent="1" style="html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="520" width="480" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bank staff" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Velify Customer" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--6" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Finance Exchange System" vertex="1">
+          <mxGeometry height="26" width="150" x="210" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--7" edge="1" parent="1" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Botq3cFe5Yx0NCncd-b--3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Botq3cFe5Yx0NCncd-b--13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--11" edge="1" parent="1" source="Botq3cFe5Yx0NCncd-b--4" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="250" as="sourcePoint" />
+            <mxPoint x="720" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Open Account" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Deposit" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Botq3cFe5Yx0NCncd-b--15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Botq3cFe5Yx0NCncd-b--14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="410" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM8xC7FCyOuFsmOO5G75-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="399.5" as="sourcePoint" />
+            <mxPoint x="720" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nniu7tRAUX3wyO4tFJfB-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="User Case #1: Register" vertex="1">
+          <mxGeometry height="26" width="140" x="370" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QNIiJxee6XyDZEl1MCNZ" name="Exchange">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-gR2iQicCLuV5VFERb2C-1" parent="1" style="html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="522" width="480" x="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bank staff" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Exchange" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Query Balance" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-6" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Finance Exchange System" vertex="1">
+          <mxGeometry height="26" width="150" x="210" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-7" edge="1" parent="1" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-gR2iQicCLuV5VFERb2C-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-gR2iQicCLuV5VFERb2C-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Withdrawal" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ask Questions" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="-gR2iQicCLuV5VFERb2C-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-gR2iQicCLuV5VFERb2C-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="410" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJah0IT6lwEZL8GTsTI1-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-gR2iQicCLuV5VFERb2C-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint" />
+            <mxPoint x="350" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJah0IT6lwEZL8GTsTI1-2" edge="1" parent="1" source="-gR2iQicCLuV5VFERb2C-11" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="318" as="sourcePoint" />
+            <mxPoint x="720" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSho39PlE7NvBcx0qajF-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="User Case #2: Exchange" vertex="1">
+          <mxGeometry height="26" width="140" x="370" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
