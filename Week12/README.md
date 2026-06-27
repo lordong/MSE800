@@ -12,4 +12,4 @@
 
 1. Activity5.py
 
-2. template/activity5.html
+2. template/activity.html
