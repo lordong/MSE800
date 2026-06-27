@@ -8,4 +8,8 @@
 
 3. @app.route("/hello_template/<name>")
 
-4. 
+## 2. Activity 5 - BMI Calculator
+
+1. Activity5.py
+
+2. template/activity5.html
