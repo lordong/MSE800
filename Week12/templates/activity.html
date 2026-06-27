@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate BMI</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/" method="POST">
+        <p>Weight in kilograms: <input id="kilograms" name="kilograms" value="{{ kilograms }}"></p>
+        <p>Height in meters: <input id="meters" name="meters" value="{{ meters }}"></p>
+        <p><button type="submit">Calculate BMI</button></p>
+    </form>
+    <hr>
+    <h1>BMI Calculator Result</h1>
+    <p>Your BMI is: {{ bmi_result }}</p>
+</body>
+</html>
